@@ -11,6 +11,8 @@
 		D11774042E0D60AB00D082F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11774032E0D60AB00D082F9 /* ContentView.swift */; };
 		D11774062E0D60AC00D082F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11774052E0D60AC00D082F9 /* Assets.xcassets */; };
 		D11774092E0D60AC00D082F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11774082E0D60AC00D082F9 /* Preview Assets.xcassets */; };
+		D11774102E0D60FA00D082F9 /* MeditationTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117740F2E0D60FA00D082F9 /* MeditationTimerView.swift */; };
+		D11774122E0D611000D082F9 /* MeditationTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11774112E0D611000D082F9 /* MeditationTimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D11774032E0D60AB00D082F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D11774052E0D60AC00D082F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11774082E0D60AC00D082F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D117740F2E0D60FA00D082F9 /* MeditationTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTimerView.swift; sourceTree = "<group>"; };
+		D11774112E0D611000D082F9 /* MeditationTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTimerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D11774032E0D60AB00D082F9 /* ContentView.swift */,
 				D11774052E0D60AC00D082F9 /* Assets.xcassets */,
 				D11774072E0D60AC00D082F9 /* Preview Content */,
+				D117740F2E0D60FA00D082F9 /* MeditationTimerView.swift */,
+				D11774112E0D611000D082F9 /* MeditationTimerViewModel.swift */,
 			);
 			path = MeditationTimerCombine;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11774122E0D611000D082F9 /* MeditationTimerViewModel.swift in Sources */,
 				D11774042E0D60AB00D082F9 /* ContentView.swift in Sources */,
 				D11774022E0D60AB00D082F9 /* MeditationTimerCombineApp.swift in Sources */,
+				D11774102E0D60FA00D082F9 /* MeditationTimerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

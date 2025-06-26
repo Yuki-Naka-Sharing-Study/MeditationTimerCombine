@@ -11,7 +11,7 @@ import SwiftUI
 struct MeditationTimerCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeditationTimerView()
         }
     }
 }
